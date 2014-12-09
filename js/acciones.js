@@ -17,7 +17,7 @@ $('#principal').height($('#page1').height());
 			$(this).addClass('tocada');
 			audio.play($(this).attr('id'));
 			
-		}).bind('touchstart',function(){
+		}).bind('touchend',function(){
 			$(this).removeClass('tocada');
 		});
 	},false);

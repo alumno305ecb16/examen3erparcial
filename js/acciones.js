@@ -20,5 +20,6 @@ $('#principal').height($('#page1').height());
 		}).bind('touchstart',function(){
 			$(this).removeClass('tocada');
 		});
-	}.false);//deviceready
-});//ready
+	},false);
+});
+	
